@@ -97,3 +97,42 @@ $ git log
 - `-`       Optional한 표현
 - `touch start rm^c`
 - `mkdir cd rm -r^c`  
+
+## 리모트 연결하기
+
+```
+$ git remote add <name> <URL>
+
+# 리모트 삭제하기
+$ git remote remove <name>
+
+# 리모트 이름바꾸기
+$ git remote rename <old-name> <new-name>
+```
+
+
+
+## 리모트에 PUSH하기
+
+리모트에 업로드
+
+```
+$ git push <name> <branch>
+```
+
+
+
+## 리모트에서 최초 CLONE 받기
+
+리모트 리포 내용을 그대로 복제
+
+```
+$ git clone <URL>
+```
+
+
+
+## 리모트에서 PULL 하기
+
+리모트에서 다운로드
+
